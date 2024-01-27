@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+    <link rel="icon" href="assets/favicon.png">
+    <title>Weather App | SZRSOFT</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="weather">
+            <div class="day-info">
+                <h1 id="day">No Data</h1>
+                <h2 id="date">No Data</h2>
+                <h2 id="location">No Data</h2>
+            </div>
+
+            <div class="day-details">
+                <span class="material-symbols-outlined" id="day-detail-icon">sunny</span>
+                <h1 id="day-heat">14 C</h1>
+                <h2 id="day-state">moderate rain</h2>
+            </div>
+            <img src="https://i.pinimg.com/564x/53/cd/89/53cd89d09ca76ddf0d863fa130af9b09.jpg">
+        </div>
+        <div class="details"> 
+            <div class="water-info-grid-container">
+                <div class="grid-item-text">FEELS LIKE</div>
+                <div class="grid-item-entry" id="feels-like">0.79%</div>
+                <div class="grid-item-text">HUMIDITY</div>
+                <div class="grid-item-entry" id="humidity">89%</div>
+                <div class="grid-item-text">WIND SPEED</div>
+                <div class="grid-item-entry" id="wind-speed">0.75km/h</div>
+            </div>
+            <div class="week-container-grid">
+                <div class="day-container" id="mon">
+                    <span class="material-symbols-outlined" id="icon">sunny</span>
+                    <h2>Mon</h2>
+                    <h3>15 C</h3>
+                </div>
+                <div class="day-container" id="tue">
+                    <span class="material-symbols-outlined" id="icon">sunny</span>
+                    <h2>Tue</h2>
+                    <h3>15 C</h3>
+                </div>
+                <div class="day-container" id="wed">
+                    <span class="material-symbols-outlined" id="icon">sunny</span>
+                    <h2>Wed</h2>
+                    <h3>15 C</h3>
+                </div>
+                <div class="day-container" id="thu">
+                    <span class="material-symbols-outlined" id="icon">sunny</span>
+                    <h2>Thu</h2>
+                    <h3>15 C</h3>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="search-button" id="search-button">Search Location</button>
+            </div>
+        </div>
+    </div>
+    <script src="Style.js"></script>
+
+</body>
+</html>
